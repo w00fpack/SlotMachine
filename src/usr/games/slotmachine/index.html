@@ -1,0 +1,54 @@
+<html>
+	<head>
+
+		<title>Slot Machine</title>
+		<link rel="icon" href="favicon.png" type="image/png">
+		<script type="text/javascript" src="slots.js"></script>
+		<link rel="stylesheet" type="text/css" href="slots.css" />
+
+	</head>
+	<body>
+
+
+		<div id="game">
+			<canvas id="slots" width="250" height="250"></canvas><br />
+			<img id='overlay' src='images/overlay.png' />
+			<img id='bb' src='images/l.png' onclick='spin();' />
+			<br />
+			<div id='buttons'>
+				<button type="button" onclick="playing_lines = 1; spin()" id='button_1' class='button_on'>1 Line</button>
+				<button type="button" onclick="playing_lines = 3; spin()" id='button_3'>3 Lines</button>
+				<button type="button" onclick="playing_lines = 5; spin()" id='button_5'>5 Lines</button>
+			</div>
+
+			<p id="total"></p>
+			<p id="log"></p>
+		</div>
+
+		<div id='lookup' style="margin-left: 100px; float: left;">
+			<center>3 of a kind</center>
+			<pre>
+50
+10
+15
+20
+25
+8
+6
+4
+75
+100
+250
+		</pre>
+
+		<center>6 any diamonds<br/>
+		2 any gems
+		</center>
+	</div>
+
+	<script type="text/javascript">
+		init();
+	</script>
+
+	</body>
+</html>

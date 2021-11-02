@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00270a;
+}
+
+.button_on {
+	background-color: yellow;
+}
+
+img#overlay, img#bb {
+	position: absolute;
+	top: 40px;
+	left: 27px;
+}
+
+img#bb {
+	top: 33px;
+	left: 51px;
+}
+
+#wrap {
+  width: 300px;
+  height: 270px;
+  overflow: hidden;
+}
+
+#game {
+/*
+  background-image: url("images/background.png");
+*/
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 300px;
+  text-align: center;
+  float: left;
+}
+
+
+button {
+  font-size: 8pt;
+}
+
+#total {
+	color: black;
+	position: absolute;
+	font-size: 20px;
+	top: 45px;
+	left: 97px;
+	margin: 0;
+	text-align: right;
+	width: 73px;
+}
+
+p#log:empty {
+	display: none;
+}
+
+#buttons {
+	top: 7px;
+    left: -10px;
+    position: relative;
+}
+
+#log {
+  color: white;
+  font-size: 38px;
+  position: absolute;
+  top: 48px;
+  left: 250px;
+  width: 30px;
+  text-align: left;
+  font-family: arial, helvetica, sans-serif;
+  text-align: right;
+  margin: 0;
+  padding: 3px;
+}
+
+* {
+	transition: .4s;
+	transform-style: preserve-3d;
+}
+
+.spin {
+	transform: rotateX(183deg);
+}
+
+pre {
+background-image: url(images/icons.png);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding-left: 38px;
+    background-size: 20px;
+    padding-top: 5px;
+    color: black;
+}
+
+div#lookup {
+	margin-left: 100px;
+    color: black;
+    float: left;
+    background-color: #FFF39B;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: 1px solid orange;
+    padding: 1em;
+
+}

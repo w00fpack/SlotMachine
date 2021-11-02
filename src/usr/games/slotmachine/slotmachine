@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+xdg-settings get default-web-browser
+
+file:///usr/games/slotmachine/index.html

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Slot Machine
+Comment=Simin
+Exec=defaultbrowser --app=file:///usr/games/slotmachine/index.html --window-size=675,400 --user-data-dir=/root/.cache/vivaldi_junk
+Terminal=false
+Icon=/usr/games/slotmachine/favicon.png
+Type=Application
+Categories=Game
